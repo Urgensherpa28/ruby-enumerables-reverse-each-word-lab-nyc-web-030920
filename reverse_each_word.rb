@@ -3,6 +3,6 @@ def reverse_each_word(string)
   array.each do |word|
     final = word.reverse 
   end 
-  final 
+  final.to_s 
 end
 
